@@ -744,7 +744,13 @@ button {
   display: flex;
   flex-direction: column;
   gap: 0.9rem;
+  cursor: pointer;
   transition: border-color 0.25s var(--ease), transform 0.25s var(--ease);
+}
+
+.project-card:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
 }
 
 .project-card:hover {
@@ -817,6 +823,8 @@ button {
 
 .project-card__links {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 1rem;
   font-family: var(--font-mono);
   font-size: 0.8rem;
@@ -826,6 +834,23 @@ button {
   color: var(--fg-dim);
   border-bottom: 1px solid transparent;
   transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+
+.project-card__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--blue);
+  background: var(--blue-soft);
+  font-size: 0.72rem;
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius);
+  transition: transform 0.2s var(--ease), background 0.2s var(--ease);
+}
+
+.project-card:hover .project-card__cta {
+  background: var(--blue-border);
+  transform: translate(2px, -2px);
 }
 
 .project-card__links a:hover {
@@ -869,7 +894,7 @@ button {
 
 .contact-row {
   display: grid;
-  grid-template-columns: 7rem 1fr;
+  grid-template-columns: 7rem minmax(0, 1fr);
   gap: 1rem;
   padding: 1rem 1.4rem;
   font-family: var(--font-mono);
@@ -892,6 +917,7 @@ button {
 
 .contact-row__value {
   color: var(--fg);
+  overflow-wrap: anywhere;
 }
 
 .contact-rows a:hover .contact-row__value {
