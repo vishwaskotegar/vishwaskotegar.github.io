@@ -7,6 +7,11 @@
     const el = document.createElement("article");
     el.className = "project-card";
 
+    const target = p.homepage || p.url;
+    el.tabIndex = 0;
+    el.setAttribute("role", "link");
+    el.setAttribute("aria-label", `Open ${p.name}${p.homepage ? "" : " on GitHub"}`);
+
     const tags = (p.tags || []).slice(0, 4).map((t) => `<span>${t}</span>`).join("");
 
     el.innerHTML = `
@@ -19,10 +24,25 @@
       <p class="project-card__desc">${p.description || "No description yet."}</p>
       <div class="project-card__tags">${tags}</div>
       <div class="project-card__links">
-        ${p.homepage ? `<a href="${p.homepage}" target="_blank" rel="noopener">Live →</a>` : ""}
         <a href="${p.url}" target="_blank" rel="noopener">Code →</a>
+        <span class="project-card__cta" aria-hidden="true">${p.homepage ? "visit site" : "view code"} ↗</span>
       </div>
     `;
+
+    const open = () => window.open(target, "_blank", "noopener");
+
+    el.addEventListener("click", (e) => {
+      if (e.target.closest("a")) return; // let the specific link handle its own destination
+      open();
+    });
+    el.addEventListener("keydown", (e) => {
+      if (e.target !== el) return; // don't hijack Enter/Space on the inner links
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        open();
+      }
+    });
+
     return el;
   }
 
