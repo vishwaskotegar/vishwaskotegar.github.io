@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal portfolio — static site, GitHub-synced project feed.",
+  "scripts": {
+    "sync-projects": "node scripts/sync-projects.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

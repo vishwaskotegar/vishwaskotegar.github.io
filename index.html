@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Vishwas U.S. — GenAI Developer</title>
+<meta name="description" content="Vishwas U.S. — GenAI Developer building LLM-powered RAG pipelines, agentic workflows, and semantic retrieval systems." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<div id="log-field"></div>
+<div class="scrim"></div>
+
+<div class="page">
+
+  <nav class="dotnav" aria-label="Section navigation" id="dotnav">
+    <a href="#top" class="dotnav__item" data-section="top"><span class="dotnav__dot"></span><span class="dotnav__tip">top</span></a>
+    <a href="#about" class="dotnav__item" data-section="about"><span class="dotnav__dot"></span><span class="dotnav__tip">about</span></a>
+    <a href="#stack" class="dotnav__item" data-section="stack"><span class="dotnav__dot"></span><span class="dotnav__tip">stack</span></a>
+    <a href="#experience" class="dotnav__item" data-section="experience"><span class="dotnav__dot"></span><span class="dotnav__tip">experience</span></a>
+    <a href="#projects" class="dotnav__item" data-section="projects"><span class="dotnav__dot"></span><span class="dotnav__tip">projects</span></a>
+    <a href="#contact" class="dotnav__item" data-section="contact"><span class="dotnav__dot"></span><span class="dotnav__tip">contact</span></a>
+  </nav>
+
+  <main>
+
+    <section class="hero" id="top">
+      <div class="wrap">
+        <span class="hero__identity"><span class="dot"></span>Vishwas U.S. · Bangalore, India</span>
+        <h1 class="hero__role">GenAI Developer</h1>
+        <p class="hero__tagline">Building retrieval systems that hold up in production, not just in a demo.</p>
+        <p class="hero__sub">
+          RAG pipelines, agents, and semantic search — built with LangChain, ChromaDB and OpenAI,
+          shaped by three years keeping production systems alive at Oracle.
+        </p>
+
+        <div class="console">
+          <div class="console__bar">
+            <span>new session</span>
+            <span class="console__status"><span class="pulse"></span>streaming</span>
+          </div>
+          <div class="console__body" id="console-body" aria-live="polite">
+            <div class="console__prompt">who are you?</div>
+            <div class="console__gap"></div>
+            <div class="console__response" id="console-response"></div>
+          </div>
+          <div class="console__stats"><span id="console-tokens">—</span> tokens</div>
+        </div>
+
+        <div class="hero__ctas" id="hero-ctas">
+          <a href="#projects" class="btn btn--primary">view projects</a>
+          <a href="assets/Vishwas_GenAi_Resume.pdf" class="btn" download>download résumé</a>
+          <a href="#contact" class="btn">say hi</a>
+        </div>
+
+        <div class="context-bar" id="context-bar">
+          <div class="context-bar__caption">context window</div>
+          <div class="context-bar__track">
+            <div class="context-bar__seg" data-key="about"></div>
+            <div class="context-bar__seg" data-key="stack"></div>
+            <div class="context-bar__seg" data-key="experience"></div>
+            <div class="context-bar__seg" data-key="projects"></div>
+            <div class="context-bar__seg" data-key="contact"></div>
+          </div>
+          <div class="context-bar__labels">
+            <span data-key="about">about</span>
+            <span data-key="stack">stack</span>
+            <span data-key="experience">experience</span>
+            <span data-key="projects">projects</span>
+            <span data-key="contact">contact</span>
+          </div>
+          <div class="context-bar__stat" id="context-bar-stat">5 sections · ready</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="about">
+      <div class="wrap">
+        <span class="section__label">about</span>
+        <p class="about__text">
+          <strong>GenAI Developer</strong> building LLM-powered RAG pipelines, agentic workflows, and semantic
+          retrieval systems with LangChain, ChromaDB, and OpenAI APIs. Backed by
+          <strong>3+ years in enterprise production support at Oracle</strong>, resolving high-priority incidents
+          across healthcare systems — I care about what actually holds up in production, not just what works in a
+          notebook. Based in Bangalore, India.
+        </p>
+      </div>
+    </section>
+
+    <section class="section reveal" id="stack">
+      <div class="wrap">
+        <span class="section__label">stack</span>
+        <div class="stack-grid">
+          <div class="stack-group">
+            <span class="stack-group__label">ai_llm</span>
+            <div class="chip-list">
+              <span class="chip">LangChain</span>
+              <span class="chip">LangGraph</span>
+              <span class="chip">RAG Pipelines</span>
+              <span class="chip">OpenAI APIs</span>
+              <span class="chip">Prompt Engineering</span>
+              <span class="chip">ChromaDB</span>
+              <span class="chip">Ollama</span>
+              <span class="chip">Hugging Face</span>
+            </div>
+          </div>
+          <div class="stack-group">
+            <span class="stack-group__label">programming</span>
+            <div class="chip-list">
+              <span class="chip">Python</span>
+              <span class="chip">FastAPI</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">Java</span>
+              <span class="chip">SQL</span>
+              <span class="chip">REST APIs</span>
+              <span class="chip">Shell Scripting</span>
+            </div>
+          </div>
+          <div class="stack-group">
+            <span class="stack-group__label">tools</span>
+            <div class="chip-list">
+              <span class="chip">Git</span>
+              <span class="chip">Linux</span>
+              <span class="chip">Docker</span>
+              <span class="chip">MongoDB</span>
+              <span class="chip">Firebase</span>
+              <span class="chip">Jupyter</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="experience">
+      <div class="wrap">
+        <span class="section__label">experience</span>
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-item__meta">
+              <span class="timeline-item__role">Technical Solution Analyst</span>
+              <span class="timeline-item__org">@ Oracle</span>
+              <span class="timeline-item__dates">Feb 2023 — Present</span>
+            </div>
+            <ul class="timeline-item__points">
+              <li>Led resolution of high-priority (P1/P2) production incidents across Cerner Millennium healthcare systems, ensuring SLA compliance.</li>
+              <li>Performed SQL-based diagnostics and root cause analysis for recurring production issues.</li>
+              <li>Received a Spot Award for resolving 80+ support requests during a queue-burst initiative.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-item__meta">
+              <span class="timeline-item__role">Software Developer</span>
+              <span class="timeline-item__org">@ Usurper Apps</span>
+              <span class="timeline-item__dates">Oct 2022 — Feb 2023</span>
+            </div>
+            <ul class="timeline-item__points">
+              <li>Developed mobile applications using Flutter, Firebase, and MongoDB.</li>
+              <li>Implemented authentication systems, responsive UI workflows, and Google Maps integrations.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="projects">
+      <div class="wrap">
+        <span class="section__label">projects</span>
+        <p id="projects-loading" class="projects-loading">querying github.com/vishwaskotegar → filtering by relevance …</p>
+        <div id="projects-grid" class="projects-grid" hidden></div>
+        <div id="projects-empty" class="projects-empty" hidden></div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="contact" style="border-bottom:none;">
+      <div class="wrap">
+        <span class="section__label">contact</span>
+        <div class="contact-rows">
+          <a class="contact-row" href="mailto:vishwas.skotegar.is@gmail.com">
+            <span class="contact-row__key">EMAIL</span>
+            <span class="contact-row__value">vishwas.skotegar.is@gmail.com</span>
+          </a>
+          <a class="contact-row" href="https://github.com/vishwaskotegar" target="_blank" rel="noopener">
+            <span class="contact-row__key">GITHUB</span>
+            <span class="contact-row__value">github.com/vishwaskotegar</span>
+          </a>
+          <a class="contact-row" href="https://www.linkedin.com/in/vishwas-u-s/" target="_blank" rel="noopener">
+            <span class="contact-row__key">LINKEDIN</span>
+            <span class="contact-row__value">linkedin.com/in/vishwas-u-s</span>
+          </a>
+          <a class="contact-row" href="assets/Vishwas_GenAi_Resume.pdf" download>
+            <span class="contact-row__key">RESUME</span>
+            <span class="contact-row__value">download .pdf</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© <span id="year"></span> Vishwas U.S.</span>
+      <span>built with vanilla JS · CSS · GSAP</span>
+    </div>
+  </footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/log-field.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

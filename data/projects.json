@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-08-07T12:05:55.899Z",
+  "projects": [
+    {
+      "name": "e20-platform",
+      "description": "",
+      "url": "https://github.com/vishwaskotegar/e20-platform",
+      "homepage": "https://e20-platform.vercel.app",
+      "live": true,
+      "tags": [
+        "TypeScript"
+      ],
+      "updatedAt": "2026-07-31T07:30:45Z"
+    },
+    {
+      "name": "travelRecommendation",
+      "description": "",
+      "url": "https://github.com/vishwaskotegar/travelRecommendation",
+      "homepage": "https://vishwaskotegar.github.io/travelRecommendation/travel_recommendation.html",
+      "live": true,
+      "tags": [
+        "HTML"
+      ],
+      "updatedAt": "2025-05-07T07:05:29Z"
+    }
+  ]
+}
