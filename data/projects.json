@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-08-07T17:31:31.138Z",
+  "generatedAt": "2026-08-08T04:28:28.399Z",
   "projects": [
+    {
+      "name": "vishwaskotegar.github.io",
+      "description": "",
+      "url": "https://github.com/vishwaskotegar/vishwaskotegar.github.io",
+      "homepage": "https://vishwaskotegar.github.io/",
+      "live": true,
+      "tags": [
+        "CSS"
+      ],
+      "updatedAt": "2026-08-07T18:21:42Z"
+    },
     {
       "name": "e20-platform",
       "description": "",
