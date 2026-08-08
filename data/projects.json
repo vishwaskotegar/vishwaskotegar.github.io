@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T04:28:28.399Z",
+  "generatedAt": "2026-08-08T08:48:10.794Z",
   "projects": [
     {
       "name": "vishwaskotegar.github.io",
@@ -10,7 +10,18 @@
       "tags": [
         "CSS"
       ],
-      "updatedAt": "2026-08-07T18:21:42Z"
+      "updatedAt": "2026-08-08T04:28:29Z"
+    },
+    {
+      "name": "resume-screener-api",
+      "description": "AI-powered resume analysis using LLM and semantic matching. Analyzes resumes against job descriptions and returns detailed match scores, skill gaps, and improvement suggestions.",
+      "url": "https://github.com/vishwaskotegar/resume-screener-api",
+      "homepage": "https://resume-screener-online.streamlit.app",
+      "live": true,
+      "tags": [
+        "Python"
+      ],
+      "updatedAt": "2026-08-07T10:10:27Z"
     },
     {
       "name": "e20-platform",
@@ -24,6 +35,17 @@
       "updatedAt": "2026-07-31T07:30:45Z"
     },
     {
+      "name": "CommentToxicity",
+      "description": "This Jupyter Notebook demonstrates a machine learning pipeline for detecting toxic comments. It includes data preprocessing, model training, evaluation, and deployment using an interactive web interface.",
+      "url": "https://github.com/vishwaskotegar/CommentToxicity",
+      "homepage": "https://github.com/vishwaskotegar/CommentToxicity",
+      "live": true,
+      "tags": [
+        "Jupyter Notebook"
+      ],
+      "updatedAt": "2025-05-15T05:00:40Z"
+    },
+    {
       "name": "travelRecommendation",
       "description": "",
       "url": "https://github.com/vishwaskotegar/travelRecommendation",
@@ -33,6 +55,28 @@
         "HTML"
       ],
       "updatedAt": "2025-05-07T07:05:29Z"
+    },
+    {
+      "name": "GAN",
+      "description": "GAN implementation in TensorFlow for generating fashion images — includes generator/discriminator architecture, training pipeline, and saved models (FashionGAN).",
+      "url": "https://github.com/vishwaskotegar/GAN",
+      "homepage": "https://github.com/vishwaskotegar/GAN",
+      "live": true,
+      "tags": [
+        "Jupyter Notebook"
+      ],
+      "updatedAt": "2024-06-11T07:42:32Z"
+    },
+    {
+      "name": "instagram",
+      "description": "Cross-platform Instagram clone (Android/iOS/Web) built with Flutter and Firebase, featuring user auth, feed, posts, comments, search, notifications, and profiles.",
+      "url": "https://github.com/vishwaskotegar/instagram",
+      "homepage": "https://github.com/vishwaskotegar/instagram",
+      "live": true,
+      "tags": [
+        "Dart"
+      ],
+      "updatedAt": "2022-11-09T05:20:05Z"
     }
   ]
 }
