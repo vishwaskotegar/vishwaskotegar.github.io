@@ -1,17 +1,6 @@
 {
-  "generatedAt": "2026-08-08T08:48:10.794Z",
+  "generatedAt": "2026-08-08T09:03:12.596Z",
   "projects": [
-    {
-      "name": "vishwaskotegar.github.io",
-      "description": "",
-      "url": "https://github.com/vishwaskotegar/vishwaskotegar.github.io",
-      "homepage": "https://vishwaskotegar.github.io/",
-      "live": true,
-      "tags": [
-        "CSS"
-      ],
-      "updatedAt": "2026-08-08T04:28:29Z"
-    },
     {
       "name": "resume-screener-api",
       "description": "AI-powered resume analysis using LLM and semantic matching. Analyzes resumes against job descriptions and returns detailed match scores, skill gaps, and improvement suggestions.",
@@ -24,17 +13,6 @@
       "updatedAt": "2026-08-07T10:10:27Z"
     },
     {
-      "name": "e20-platform",
-      "description": "",
-      "url": "https://github.com/vishwaskotegar/e20-platform",
-      "homepage": "https://e20-platform.vercel.app",
-      "live": true,
-      "tags": [
-        "TypeScript"
-      ],
-      "updatedAt": "2026-07-31T07:30:45Z"
-    },
-    {
       "name": "CommentToxicity",
       "description": "This Jupyter Notebook demonstrates a machine learning pipeline for detecting toxic comments. It includes data preprocessing, model training, evaluation, and deployment using an interactive web interface.",
       "url": "https://github.com/vishwaskotegar/CommentToxicity",
@@ -44,17 +22,6 @@
         "Jupyter Notebook"
       ],
       "updatedAt": "2025-05-15T05:00:40Z"
-    },
-    {
-      "name": "travelRecommendation",
-      "description": "",
-      "url": "https://github.com/vishwaskotegar/travelRecommendation",
-      "homepage": "https://vishwaskotegar.github.io/travelRecommendation/travel_recommendation.html",
-      "live": true,
-      "tags": [
-        "HTML"
-      ],
-      "updatedAt": "2025-05-07T07:05:29Z"
     },
     {
       "name": "GAN",

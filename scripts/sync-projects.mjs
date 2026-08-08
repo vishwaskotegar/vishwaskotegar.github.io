@@ -1,6 +1,9 @@
 // Pulls public repos for GITHUB_USER and writes data/projects.json.
-// A repo is included only if it's "live" (has its Website field set on
-// GitHub) or has been explicitly tagged with the "portfolio" topic.
+// A repo is included only if it's been explicitly tagged with the
+// "portfolio" topic on GitHub (Settings > About > Topics). The Website
+// field still controls the "live" badge and visit-site link, but no
+// longer controls inclusion — otherwise this portfolio repo's own
+// GitHub Pages homepage would make it list itself.
 // Run manually with `node scripts/sync-projects.mjs`, or via the
 // scheduled GitHub Action in .github/workflows/sync-projects.yml.
 
@@ -65,7 +68,7 @@ async function main() {
 
   const projects = repos
     .filter((r) => !r.fork && !r.archived)
-    .filter((r) => Boolean(r.homepage) || (r.topics || []).includes("portfolio"))
+    .filter((r) => (r.topics || []).includes("portfolio"))
     .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
     .map(toProject);
 
