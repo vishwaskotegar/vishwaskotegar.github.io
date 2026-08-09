@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T09:03:12.596Z",
+  "generatedAt": "2026-08-09T04:37:00.157Z",
   "projects": [
     {
       "name": "resume-screener-api",
@@ -33,17 +33,6 @@
         "Jupyter Notebook"
       ],
       "updatedAt": "2024-06-11T07:42:32Z"
-    },
-    {
-      "name": "instagram",
-      "description": "Cross-platform Instagram clone (Android/iOS/Web) built with Flutter and Firebase, featuring user auth, feed, posts, comments, search, notifications, and profiles.",
-      "url": "https://github.com/vishwaskotegar/instagram",
-      "homepage": "https://github.com/vishwaskotegar/instagram",
-      "live": true,
-      "tags": [
-        "Dart"
-      ],
-      "updatedAt": "2022-11-09T05:20:05Z"
     }
   ]
 }
