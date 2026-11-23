@@ -1,6 +1,17 @@
 {
-  "generatedAt": "2026-11-22T11:24:46.309Z",
+  "generatedAt": "2026-11-23T09:18:49.603Z",
   "projects": [
+    {
+      "name": "Issuelens",
+      "description": "IssueLens is an evidence-backed AI debugging assistant for public GitHub bug reports. It investigates bug reports by gathering verified code references, documentation, and issue context, forming testable hypotheses, and producing developer-verifiable reports with explicit provenance.",
+      "url": "https://github.com/vishwaskotegar/Issuelens",
+      "homepage": null,
+      "live": false,
+      "tags": [
+        "Python"
+      ],
+      "updatedAt": "2026-11-19T21:33:48Z"
+    },
     {
       "name": "resume-screener-api",
       "description": "AI-powered resume analysis using LLM and semantic matching. Analyzes resumes against job descriptions and returns detailed match scores, skill gaps, and improvement suggestions.",
